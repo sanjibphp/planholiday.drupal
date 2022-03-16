@@ -1,0 +1,47 @@
+name: Plan Holidays
+type: theme
+core: 8.x
+description: Custom Theme supports single page
+screenshot: planholidays.jpeg
+base theme: bootstrap
+
+regions:
+  site_branding: Site Branding
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Header'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  homepage_section1: 'Home Page Section1'
+  homepage_section2: 'Home Page Section2 Top'
+  homepage_section2_left: 'Home Page Section2 Left'
+  homepage_section2_right: 'Home Page Section2 Right'
+  homepage_section2_bottom_left: 'Home Page Section2 Bottom Left'
+  homepage_section2_bottom_right: 'Home Page Section2 Bottom Right'  
+  homepage_section2_bottom: 'Home Page Section2 Bottom'
+  homepage_section3: 'Home Page Section3'
+  homepage_section4: 'Home Page Section4'
+  homepage_section5: 'Home Page Section5'
+  homepage_section6_left: 'Home Page Section6 Left'
+  homepage_section6_right: 'Home Page Section6 Right' 
+  homepage_section6: 'Home Page Section6'
+  content: 'Content'
+  enquiry_form: 'Enquiry Form'
+  sidebar_first: 'Primary'
+  footer_col_one: 'Footer Col One'
+  footer_col_two: 'Footer Col Two'
+  footer_col_three: 'Footer Col Three'
+  footer_col_four: 'Footer Col Four'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  copyrights: 'Copy Rights'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+
+libraries:
+  - plan_holidays/global-css
+stylesheet-remove:
+  - https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/less/navs.less
+  - https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/less/navbar.less
+

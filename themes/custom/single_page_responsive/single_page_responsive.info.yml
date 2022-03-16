@@ -1,0 +1,32 @@
+name: Single Page Responsive Theme
+type: theme
+core: 8.x
+description: Custom Theme supports single page 
+base theme: bootstrap4
+
+regions:
+  site_branding: 'Site Branding'
+  navigation: 'Top Navigation'
+  breadcrumbs: 'Breadcrumbs'
+  hero: 'Hero'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content_header: 'Content Header'
+  content: 'Content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  footer: 'Footer Top'
+  footer_logo: 'Footer Logo'
+  footer_col_one: 'Footer Col One'
+  footer_col_two: 'Footer Col Two'
+  footer_col_three: 'Footer Col Three'
+  footer_bottom: 'Footer Bottom'
+  footer_bottom_col_one: 'Footer Bottom Col One'
+  footer_bottom_col_two: 'Footer Bottom Col Two'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'single_page_responsive/global-styling'
+

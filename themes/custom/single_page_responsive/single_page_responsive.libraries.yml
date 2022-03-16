@@ -1,0 +1,20 @@
+global-styling:
+  css:
+    theme: 
+      css/flexslider.css: {}  
+      css/reset.css: {}       
+      css/contact.css: {}
+      css/responsive.css: {}
+      css/styles.css: {}   
+  js:    
+    js/jquery.flexslider-min.js: {}
+    js/modernizr.min.js: {}
+    js/jquery.nav.js: {} 
+    js/responsive-nav.js: {}
+    js/jquery.sticky.js: {}
+    js/slider.js: {}
+
+ 
+  
+
+  

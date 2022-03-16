@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a breadcrumb trail.
+ *
+ * Available variables:
+ * - breadcrumb: Breadcrumb trail items.
+ *
+ * @ingroup templates
+ */
+#}
+{% if breadcrumb %}
+  <ol class="breadcrumb">
+    {% for item in breadcrumb %}
+      <li {{ item.attributes }}>
+        {% if item.url %}
+          <a href="{{ item.url }}">{{ item.text }}</a>
+        {% else %}
+          {{ item.text }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+    <script type="text/javascript">
+        (function($){
+            $('ol.breadcrumb > li').addClass('breadcrumb-item');
+        }(jQuery));
+    </script>
+{% endif %}

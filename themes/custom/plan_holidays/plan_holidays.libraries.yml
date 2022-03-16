@@ -1,0 +1,16 @@
+global-css:
+  version: VERSION
+  css: 
+    theme:
+      css/flexslider.css: {}  
+      css/reset.css: {}       
+      css/contact.css: {}
+      css/responsive.css: {}
+      css/styles.css: {} 
+      # //fonts.googleapis.com/css?family=Oswald: { type: external }
+      //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css: { type: external }
+  js:
+    js/jquery.nav.js: {}
+    js/scripts.js: {}
+
+
