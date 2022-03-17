@@ -89,18 +89,6 @@
  * @endcode
  */
 
-  $databases['default']['default'] = array (
-    'database' => 'planholidays',
-    'username' => 'root',
-    'password' => 'NewPass#123',
-    'prefix' => '',
-    'host' => 'pcomprod.celinqmz7pg4.us-east-1.rds.amazonaws.com',
-    'port' => '3306',
-    'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-    'driver' => 'mysql',
-  );
-  $settings['config_sync_directory'] = 'sites/default/files/config_3EJfKGTZko1iHX2NWMeTPVWhQGgaw6WiVv-1bpv4B1XySvfPOsYgAJsqh
-  YkkDk4l6IPfE5jSmw/sync';
 
 /**
  * Customizing database settings.
