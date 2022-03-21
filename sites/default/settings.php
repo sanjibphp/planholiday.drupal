@@ -91,10 +91,10 @@
 
   $databases['default']['default'] = array (
     'database' => 'planholidays',
-    'username' => 'root',
-    'password' => 'NewPass#123',
+    'username' => '',
+    'password' => '',
     'prefix' => '',
-    'host' => 'pcomprod.celinqmz7pg4.us-east-1.rds.amazonaws.com',
+    'host' => '',
     'port' => '3306',
     'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
     'driver' => 'mysql',
