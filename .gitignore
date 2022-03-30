@@ -17,5 +17,5 @@
 # custom module, theme, etc., are not ignored unless you purposely do so.
 /vendor/
 sites/default/settings.php
-sites/default/files/*
+#sites/default/files/*
 .vscode/
